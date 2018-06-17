@@ -1,0 +1,31 @@
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: Spitfire_wing                                               
+     # Surfaces =   2
+     # Strips   =  38
+     # Vortices = 494
+
+  Sref =  5000.0       Cref =  24.479       Bref =  234.52    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case: -SPITFIRE-                              
+
+  Alpha =  -1.79395     pb/2V =   0.00000     p'b/2V =   0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.850     rb/2V =   0.00000     r'b/2V =   0.00000
+
+  CXtot =  -0.04724     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =  -0.92406
+  CZtot =  -0.52678     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   0.52800
+  CDtot =   0.03072
+  CDvis =   0.02300     CDind =   0.00772
+  CLff  =   0.52643     CDff  =   0.00786    | Trefftz
+  CYff  =   0.00000         e =    1.0207    | Plane  
+ 
+ 
+ ---------------------------------------------------------------

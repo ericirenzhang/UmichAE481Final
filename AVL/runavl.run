@@ -1,0 +1,11 @@
+LOAD .\AVL\airplane.avl
+OPER
+F
+.\AVL\case
+X
+FT
+.\AVL\DATA\\TEST_JM
+O
+
+
+Quit

@@ -1,0 +1,47 @@
+Spitfire_wing
+0.0                      | Mach
+0     0     0            | iYsym  iZsym  Zsym
+
+5000.00000 24.47860   234.52079        Sref   Cref   Bref
+# Note : check consistency of area unit above with length units of the file
+35.79400 -0.00000  3.77600       Xref   Yref   Zref
+0.0000000                    CDp  (optional)
+
+
+
+#===================================================
+SURFACE             | (keyword)
+Test Plane_Wing
+#Nchord   Cspace  [ Nspan  Sspace ]
+13.00000  1.00000
+
+INDEX                | (keyword)
+22060                | Lsurf
+
+YDUPLICATE
+     0.00000
+
+SCALE
+1.0 1.0 1.0
+
+TRANSLATE
+    0.00000     0.00000     0.00000
+
+ANGLE
+     0.00000         | dAinc
+
+
+#First Section (Root)------------------------------------------------------
+#    Xle         Yle         Zle         chord       angle   Nspan  Sspace
+SECTION 
+     0.00000     0.00000     0.00000     35.53345         2.00000   19.00000      3.00000
+AFIL
+.\AVL\SC(2)-0610.dat
+
+
+#Fourth Section (Tip)------------------------------------------------------
+SECTION 
+     67.70032      117.26039     12.32456     7.10669       0.00000   19.00000     3.00000
+AFIL
+.\AVL\SC(2)-0610.dat
+#--------------------------------------------------------------------------
